@@ -11,7 +11,7 @@ metadata:
 stackbit_banner:
   show_banner: true
   name: Fjord
-  create_url: 'https://app.stackbit.com/wizard?theme=fjord'
+  create_url: 'https://app.stackbit.com/create?theme=fjord'
   github_url: 'https://github.com/stackbithq/stackbit-theme-fjord'
 sourceMapping:
   - source:
@@ -251,3 +251,5 @@ models:
         label: Hide header
         description: Hide the left side in the single post.
         default: false
+pagesDir: content
+staticDir: static
