@@ -1,5 +1,12 @@
-stackbitVersion: ~0.2.34
+stackbitVersion: ~0.2.0
+ssgName: unibit
+buildCommand: unibit build
+publishDir: output
+staticDir: static
 uploadDir: images
+dataDir: data
+pagesDir: content
+pageLayoutKey: layout
 metadata:
   title: Fjord
   description: A minimal blogging theme
@@ -251,5 +258,3 @@ models:
         label: Hide header
         description: Hide the left side in the single post.
         default: false
-pagesDir: content
-staticDir: static
