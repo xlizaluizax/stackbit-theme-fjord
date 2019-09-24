@@ -32,6 +32,11 @@ sourceMapping:
       file: config.yml
       fieldPath: params.header.title
   - source:
+      fieldPath: author.about
+    target:
+      file: config.yml
+      fieldPath: params.header.tagline
+  - source:
       fieldPath: author.email
     target:
       file: data/author.json
